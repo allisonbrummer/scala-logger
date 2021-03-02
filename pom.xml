@@ -69,9 +69,6 @@
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
-          <manifest>
-            <mainClass>io.github.allisonbrummer.App</mainClass>
-          </manifest>
         </configuration>
       </plugin>
       <plugin>
@@ -112,7 +109,7 @@
           <junitxml>.</junitxml>
           <filereports>TestSuiteReport.txt</filereports>
           <!-- Comma separated list of JUnit test class names to execute -->
-          <jUnitClasses>samples.AppTest</jUnitClasses>
+          <jUnitClasses></jUnitClasses>
         </configuration>
         <executions>
           <execution>
