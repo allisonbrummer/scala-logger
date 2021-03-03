@@ -1,12 +1,12 @@
-#scala-logger
+# scala-logger
 This is a demo package with some logging classes for Scala. I wrote this
 to play with Scala and Maven, and also to learn how to deploy a package to Maven Central.
 
-#Test
+## Test
 `mvn test`
 
-#Build
+## Build
 `mvn clean && mvn package`
 
-#Deploy
+## Deploy
 `mvn clean deploy`
